@@ -1,0 +1,16 @@
+ #main-head
+ {
+    height: calc(100vh - 54px);
+    background-image: url('https://wallpapercave.com/dwp2x/wp3937477.jpg');
+    background-size: cover;
+ }
+ .page-section{
+    padding:6 rem 0;
+ }
+ .section-heading{
+   font-weight:bold;
+   margin-bottom: 1rem;
+ }
+ .section-subheading{
+   margin-bottom: 4rem;
+ }

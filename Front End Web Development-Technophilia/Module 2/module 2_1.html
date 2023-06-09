@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        module 2_1
+    </title>
+    <style>
+        marquee{
+            color:blueviolet;
+            font-size: 30px;
+            font-family: cursive;
+            font-style: oblique;
+        }
+        .gen{
+            color:brown
+        }
+        label{
+            color:coral;
+            font-size: 20px;
+        }
+        
+        h3{
+            color:blue;
+        }
+        img{
+           width:350px;
+           height:300px;
+           margin-left:40%;
+           margin-top: -33%;
+           border:crimson;
+           border-radius: 5%;
+           border-width: 5px;
+           border-style: solid;
+           padding:10px;
+           background-color: aliceblue;
+        }
+        body{
+            background-image:linear-gradient(cyan,green);
+
+            
+        }
+    </style>
+</head>
+
+<body>
+    <marquee direction="right" >Enter the form</marquee>
+    <form action="mailto:harshitraj500@gmail.com" method="POST">
+
+        <h3>Name:</h3>
+        <input type="text" name="Name" placeholder="enter text" required >
+        <br>            
+        
+        <h2>Gender:</h2>
+        <input type="radio" name="gender" value="male" id="m">
+        <label class="gen" for="m">male:</label>
+        <input type="radio" name="gender" value="female" id="f">
+        <label class="gen" for="f">female:</label>   
+        <br><br>
+
+        <h3>Skills:</h3>
+        <input type="checkbox" name="HTML" id="html">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" name="CSS" id="css">
+        <label for="html">CSS</label>
+        <br><br>
+
+        <select name="lists of students" value="--lists of students--">
+            <option>--lists of students--</option>
+            <option>harshit</option>
+            <option>raj</option>
+            <option> shrishti</option>
+            <option>sameeksh</option>
+        </select>
+
+        <br><br><br>
+        <input type="submit" value="click here to submit!">
+        <input type="reset" value="click here to reset!">
+    </form>
+    <img src="https://i.ytimg.com/vi/Z_gliAt8lUc/maxresdefault.jpg">
+</body>
+</html>
